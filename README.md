@@ -15,7 +15,7 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.<br>
 **Scope**: Focus on the latest dataset only; historization of data is not required.<br>
 **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.<br>
-### BI: Analytics & Reporting (Data Analytics)
+## BI: Analytics & Reporting (Data Analytics)
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:<br>
 **Customer Behavior** <br>

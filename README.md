@@ -6,22 +6,22 @@ Designed as a portfolio project highlights industry best practices in data engin
 
 ---
 # project Requirements.
- **Objective <br>
+**Objective** <br>
 **Building Data warehouse(Data Engineering)** ! <br>
 Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 #### Specifications.
-**Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-**Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-**Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-**Scope**: Focus on the latest dataset only; historization of data is not required.
-**Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+**Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.<br>
+**Data Quality**: Cleanse and resolve data quality issues prior to analysis.<br>
+**Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.<br>
+**Scope**: Focus on the latest dataset only; historization of data is not required.<br>
+**Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.<br>
 ### BI: Analytics & Reporting (Data Analytics)
 #### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-**Customer Behavior**
-**Product Performance**
-**Sales Trends**
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+Develop SQL-based analytics to deliver detailed insights into:<br>
+**Customer Behavior** <br>
+**Product Performance** <br>
+**Sales Trends** <br>
+These insights empower stakeholders with key business metrics, enabling strategic decision-making. <br>
 ## License
 This project is licensed under the [MIT License] (LICENSE). You are free to use, modify, and share this project with proper attribution.
 

@@ -12,6 +12,7 @@ None.
 This stored procedure does not accept any parameters or return any values.
 Usage Example:
 EXEC bronze.load_bronze;
+=====================================================================================
 */
 create or alter procedure bronze.load_bronze as
 begin 

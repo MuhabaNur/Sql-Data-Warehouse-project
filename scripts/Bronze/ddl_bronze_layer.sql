@@ -6,7 +6,7 @@ Script Purpose:
  This script creates tables in the 'bronze' schema, dropping existing tables if they already exist.
 Run this script to re-define the DDL structure of 'bronze' Tables
 ====================================================================================================
-=
+
 */
 if object_id ('bronze.Crm_Cust_info ' ,'u') is not null 
   DROP table bronze.Crm_Cust_info 

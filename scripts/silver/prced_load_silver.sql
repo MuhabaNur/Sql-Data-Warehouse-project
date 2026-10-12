@@ -143,9 +143,6 @@ select
       else sls_price --derive price if original value is invalid
       end  sls_price
 from bronze.crm_sales_details
-where sls_price <=0  or sls_price is null 
-or sls_sales <= 0 or sls_sales is null
-
 set @endtime=getdate()
 set @batchendtime=getdate()
 print 'loading duration:' + cast(datediff(second,@starttime,@endtime) as varchar) +'seconds';

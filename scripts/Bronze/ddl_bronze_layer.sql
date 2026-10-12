@@ -70,7 +70,7 @@ ID  NVARCHAR(50),
 Category nvarchar(50),
 SUBCAT NVARCHAR(50),
 Maintainance NVARCHAR(50)
-) ;
+) 
 
 
 

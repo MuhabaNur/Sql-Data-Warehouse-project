@@ -24,6 +24,7 @@ if object_id ('silver.crm_prd_info ' ,'u') is not null
   DROP table silver.crm_prd_info
 create table silver.crm_prd_info(
 prd_id INT,
+cat_key  NVARCHAR(50),
 prd_key NVARCHAR(50),
 prd_nm NVARCHAR(50),
 prd_cost int,

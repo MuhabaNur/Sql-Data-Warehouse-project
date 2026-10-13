@@ -64,10 +64,11 @@ where flag_date=1
  set @endtime=getdate()
  print 'loading duration:' + cast(datediff(second,@starttime,@endtime) as varchar) +'seconds';
 
- set @starttime=getdate()
+
 print'--------------------------------------------------------------------------------------------------------------------------';
 print 'loading  bronze. crm_prd_info ';  
 print'--------------------------------------------------------------------------------------------------------------------------';
+set @starttime=getdate()
 print '>> truncate table crm_prd_info>> ';
 truncate table silver.crm_prd_info
 print '>> insert  table crm_prd_info>> ';
@@ -101,10 +102,10 @@ FROM  bronze.crm_prd_info
 set @endtime=getdate()
 print 'loading duration:' + cast(datediff(second,@starttime,@endtime) as varchar) +'seconds';
 
-set @starttime=getdate()
 print'--------------------------------------------------------------------------------------------------------------------------';
 print 'loading  bronze. crm_sales_details ';  
 print'--------------------------------------------------------------------------------------------------------------------------'; 
+set @starttime=getdate()
 print '>> truncate crm_sales_details>> ';
 truncate table silver.crm_sales_details
 print '>> insert  crm_sales_details>> ';
@@ -185,10 +186,10 @@ from bronze.erp_cust_AZ12
 set @endtime=getdate()
 print 'loading duration:' + cast(datediff(second,@starttime,@endtime) as varchar);
 
-set @starttime=getdate()
 print'--------------------------------------------------------------------------------------------------------------------------';
 print 'loading  erp_LOC_A101 ';  
 print'--------------------------------------------------------------------------------------------------------------------------';
+set @starttime=getdate()
 print '>> truncate erp_LOC_A101 >> ';
 truncate table silver.erp_LOC_A101
 print '>> insert  erp_LOC_A101 >> ';
@@ -205,10 +206,11 @@ SELECT
   set @endtime=getdate()
   print 'loading duration:' + cast(datediff(second,@starttime,@endtime) as varchar) +'seconds';
 
-set @starttime=getdate()
+
 print'--------------------------------------------------------------------------------------------------------------------------';
 print 'loading erp_PX_CAT_G1V2 ';  
 print'--------------------------------------------------------------------------------------------------------------------------';  
+set @starttime=getdate()
 print '>> truncate erp_PX_CAT_G1V2 >> ';
 Truncate Table silver.erp_PX_CAT_G1V2 
 print '>> insert  erp_PX_CAT_G1V2 >> ';

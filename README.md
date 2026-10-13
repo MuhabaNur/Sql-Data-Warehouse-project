@@ -22,6 +22,9 @@ Develop SQL-based analytics to deliver detailed insights into:<br>
 **Product Performance** <br>
 **Sales Trends** <br>
 These insights empower stakeholders with key business metrics, enabling strategic decision-making. <br>
-## License
+##  📜 License
 This project is licensed under the [MIT License] (LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## 🌟 About me  
+I'm an aspiring Data Engineer with a background in Electrical and Computer Engineering, passionate about building reliable data pipelines and transforming raw data into meaningful business insights.
 

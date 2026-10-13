@@ -31,8 +31,8 @@ print '>> truncate table crm_Cust_info>> ';
 truncate table silver.crm_Cust_info
 print '>> insert  table crm_Cust_info>> ';
 insert into silver.crm_Cust_info (
-       cst_id
-       ,cst_key
+      cst_id
+      ,cst_key
       ,cst_firstname
       ,cst_lastname
       ,cst_marital_status
@@ -110,7 +110,7 @@ print '>> truncate crm_sales_details>> ';
 truncate table silver.crm_sales_details
 print '>> insert  crm_sales_details>> ';
 insert into silver.crm_sales_details (
-sls_ord_num
+      sls_ord_num
       ,sls_prd_key
       ,sls_cust_id
       ,sls_order_dt

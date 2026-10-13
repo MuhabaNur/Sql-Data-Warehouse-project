@@ -17,7 +17,7 @@ cst_firstname NVARCHAR(50),
 cst_lastname NVARCHAR(50),
 cst_marital_status NVARCHAR(50),
 cst_gndr NVARCHAR(50),
-cst_create_date Date,
+cst_create_date Date
 );
 
 if object_id ('bronze.crm_prd_info ' ,'u') is not null 
@@ -38,7 +38,7 @@ create table bronze.crm_sales_details (
 sls_ord_num NVARCHAR(50),
 sls_prd_key NVARCHAR(50),
 sls_cust_id int,
-sls_order_dt int,
+sls_order_dt Date,
 sls_ship_dt int,
 sls_due_dt int,
 sls_sales int,
